@@ -1,5 +1,5 @@
-import React from "react";
-import { KeyboardAvoidingView, Platform, StyleSheet, View,useEffect } from "react-native";
+import React,{useEffect} from "react";
+import { KeyboardAvoidingView, Platform, StyleSheet, View } from "react-native";
 import { StatusBar } from "expo-status-bar";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
@@ -8,7 +8,7 @@ import { SafeAreaProvider } from "react-native-safe-area-context";
 import { Entypo } from "@expo/vector-icons";
 import { AntDesign } from "@expo/vector-icons";
 import { Ionicons } from "@expo/vector-icons";
-import { STATUSBAR_HEIGHT } from './constants'
+import { STATUSBAR_HEIGHT } from './constants';
 
 //  pages
 
